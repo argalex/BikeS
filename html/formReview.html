@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Appointment form</title>
-    <link rel="stylesheet" href="../css/form.css">
+    <link rel="stylesheet" href="../css/formReview.css">
 </head>
 <body>
 		<form class="centerMid">
@@ -13,37 +13,44 @@
 
 			<div class="formDetailContainer">
 				<label for="name">Name:</label>
-				<input type="text" name="name" id="name" placeholder="Name">
+				<p>Aargint catalin asdf</p>
 			</div>
 
 			<div class="formDetailContainer">
 				<label for="phone">Phone Number:</label>
-				<input type="tel" name="phoneNumber" id="phone" placeholder="Phone Number">
+				<p>09349493949439</p>
 			</div>
 
 			<div class="formDetailContainer">
 				<label for="email">E-mail adress:</label>
-				<input type="email" name="email" id="email" placeholder="E-mail adress">
+				<p>aargint@asdkaldasd.com</p>
 			</div>
 
 			<div class="formDetailContainer">
 				<label for="description">Description:</label>
-				<textarea name="description" id="description" placeholder="Describe the problem here"> </textarea>
+				<p>askjdaskld sdkj asdklasjdlkasjd lksd jasdhkasjdhjksdh kjsahd kjashdkjsa dkashd kjsdh askd
+				asd jskd haskdjhs alkasjd lkasjdlksajdlkda s
+				d asdshkjd hdkjsadh ksajdh k sjahdkajshd kjas daskjhd kjhdk jasdakj dhasd 
+				sd askjd ksadh sakjdah sdkjahd kjashd kjhdkjahkjad</p>
 			</div>
  
 			<div class="formDetailContainer">
 				<label for="date">Your chosen date:</label>
-				<input type="datetime-local" disabled="true" name="date" id="date">
+				<p>10/09/2019 10:30</p>
 			</div>
 
 			<div class="formDetailContainer">
-				<label for="img">Upload an image or video</label>
-				<input type="file" name="img" id="img" accept="video/*,image/*">
+				<label for="img">Media: </label>
+				<div class="mediaUpload">
+					<img src="../resources/bicycle.jpg">
+					<img src="../resources/bicycle.jpg">
+					<img src="../resources/bicycle.jpg">
+				</div>
 			</div>
 
 			<div class="formDetailContainer">
-				<label for="date">Click to submit request</label>
-				<input type="submit" value="Submit">
+				<button>Approve</button>
+				<button style="float:right;">Deny</button>
 			</div>
 
 		</form>

@@ -1,0 +1,58 @@
+.formDetailContainer{
+    margin: 0 auto;
+	margin-top: 20px;
+    width: 80%;
+}
+
+.formDetailContainer label{
+	display: inline;
+	font-size: 18pt;
+	padding-bottom: 10px;
+}
+
+.formDetailContainer p{
+	display: inline;
+    border-radius: 5px;
+    width: 90%;
+    height: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.formDetailContainer textarea{
+	display: block;
+    border-radius: 5px;
+    width: 90%;
+    height: 90px;
+    resize: none;
+}
+
+.formDetailContainer button{
+	display: inline;
+	border-radius: 5px;
+    width: 45%;
+    height: 30px;
+}
+
+form{
+	border-radius: 10px;
+	box-shadow: 0 0 5px black;
+	border: 3px solid white;
+}
+
+form h1{
+	text-align: center;
+}
+
+.centerMid{
+	width: 65%;
+	margin: 0 auto;
+}
+
+
+.mediaUpload img{
+	max-height: 200px;
+	max-width: 200px;
+}
+

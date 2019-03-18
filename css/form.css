@@ -1,0 +1,40 @@
+.formDetailContainer{
+    margin: 0 auto;
+	margin-top: 20px;
+    width: 80%;
+}
+
+.formDetailContainer label{
+	display: block;
+	font-size: 18pt;
+	padding-bottom: 10px;
+}
+
+.formDetailContainer input{
+    border-radius: 5px;
+    width: 90%;
+    height: 30px;
+}
+
+.formDetailContainer textarea{
+	display: block;
+    border-radius: 5px;
+    width: 90%;
+    height: 90px;
+    resize: none;
+}
+
+form{
+	border-radius: 10px;
+	box-shadow: 0 0 5px black;
+	border: 3px solid white;
+}
+
+form h1{
+	text-align: center;
+}
+
+.centerMid{
+	width: 25%;
+	margin: 0 auto;
+}

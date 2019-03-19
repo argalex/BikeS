@@ -1,0 +1,64 @@
+.formDetailContainer{
+    margin: 0 auto;
+	margin-top: 20px;
+    width: 80%;
+}
+
+.formDetailContainer label{
+	display: block;
+	font-size: 18pt;
+	padding-bottom: 10px;
+}
+
+.formDetailContainer input{
+    border-radius: 5px;
+    width: 90%;
+    height: 30px;
+}
+
+.formDetailContainer textarea{
+	display: block;
+    border-radius: 5px;
+    width: 90%;
+    height: 90px;
+    resize: none;
+}
+
+.container{
+	display : flex;
+	flex-direction: column;
+	border-radius: 10px;
+	box-shadow: 0 0 5px black;
+	border: 3px solid white;
+	width: 30%;
+	margin: 0 auto;
+}
+
+img{
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+	order :2;
+	flex-grow: 2;
+}
+
+h1{
+	text-align: center;
+	order: 1;
+}
+
+#signIn{
+	order:3;
+	padding: 5px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+#calendar{
+	order: 4;
+	padding: 5px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+	

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Management</title>
+    <link rel="stylesheet" href="../css/stock.css">
+</head>
+<body>
+    <div style="width: 80%; margin: auto auto;">
+        <h1>Add new Part</h1>
+        <form class="form-container row" style="margin-top:10px;">
+            <label for="newPart">Part name:</label>
+            <input name="newPart" placeholder="part A" type="text"/>
+            <button type="submit" class="styled_btn">Submit</button>
+        </form>
+        <h1>Add new Provider</h1>
+        <form class="form-container row" style="margin-top:10px;">
+            <label for="newProvider">Provider name:</label>
+            <input name="newProvider" placeholder="provider A" type="text"/>
+            <button type="submit" class="styled_btn">Submit</button>
+        </form>
+        <h1>Export data</h1>
+        <form class="form-container row" style="margin-top:10px;">
+            <select required>
+                <option> CSV </option>
+                <option> JSON </option>
+                <option> PDF </option>
+            </select>
+            <button type="submit" class="styled_btn">Export</button>
+        </form>
+        <h1>Import custom data</h1>
+        <form class="form-container row" style="margin-top:10px;">
+            <input type="file" accept=".CSV,.JSON">
+            <button type="submit" class="styled_btn">Import</button>
+        </form>
+    </div>
+</body>
+</html>

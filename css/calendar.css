@@ -4,8 +4,7 @@
 	border: solid; 
 	border-width: 1px; 
 	height:30px;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding: 5px;
 	border-radius: 5px;
 	display: flex;
 	flex-direction: row;
@@ -26,9 +25,7 @@ div.row.available p{
 }
 
 div.row.available:hover{
-	border-color: blue;
-	border-width: 3px; 
-	cursor: pointer;
+	background-color: rgb(127, 113, 132);
 }
 
 div.row.invalid{

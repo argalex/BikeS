@@ -49,10 +49,30 @@
 			</div>
 
 			<div class="formDetailContainer">
-				<button>Approve</button>
+				<button onclick="displayModal(event)">Approve</button>
 				<button style="float:right;">Deny</button>
 			</div>
 
 		</form>
+<!-- Modal -->
+		<div id="myModal" class="grayBackground">
+			<div class="modal-content">
+				<button onclick="closeModal(event)">Close</button>
+				<form>
+
+				</form>
+			</div>
+		</div>
+<!-- JS to display modal -->
+		<script>
+			function displayModal(event) {
+				event.preventDefault(); 
+				document.getElementById("myModal").style.display="block";
+			}
+			function closeModal(event) {
+				event.preventDefault(); 
+				document.getElementById("myModal").style.display="none";
+			}
+		</script>
 </body>
 </html>

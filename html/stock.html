@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stock</title>
+    <link rel="stylesheet" href="../css/stock.css">
+</head>
+<body>
+	<div class="content-container">
+		<h1>Stocks and provider orders</h1>
+		<div style="width:100%">
+			<button class="nav" style="float: left">&lt;&lt; Prev</button>
+			<button class="nav" style="float: right">Next &gt;&gt;</button>
+        </div>
+        <form class="form-container row">
+            <select required>
+                <option> part A </option>
+                <option> part B </option>
+                <option> part C </option>
+            </select>
+            <label for="newItemQuantity">Quantity</label>
+            <input name="newItemQuantity" id="newItemQuantity" placeholder="0" type="number" min="0" max="1000" required/>
+            <button type="submit" class="styled_btn">add part</button>
+        </form>
+
+        <table class="content-container">
+            <tr class="row" id="table-head">
+                <th>part type</th>
+                <th>in stock</th>
+                <th>Ordered quantity</th>
+                <th>Order more</th>
+            </tr>
+            <tr class="row">
+                <td class="part">part A</td>
+                <td class="stock-quantity">100</td>
+                <td class="ordered-quantity">
+                    <div style="flex-grow: 2">2</div>
+                    <div style="flex-grow: 2">provider C</div>
+                    <button class="styled_btn"> X </button>                        
+                </td>
+                <td class="order-container">
+                    <table>
+                        <tr>
+                            <select required>
+                                <option>provider A</option>
+                                <option>provider B</option>
+                                <option>provider C</option>
+                            </select>
+                            <input type="number" min="0" max="1000" placeholder="0" required/>
+                            <button class="styled_btn">Order</button>                      
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr class="row">
+                <td class="part">part A</td>
+                <td class="stock-quantity">100</td>
+                <td class="ordered-quantity">
+                    <div style="flex-grow: 2">2</div>
+                    <div style="flex-grow: 2">provider C</div>
+                    <button class="styled_btn"> X </button>                        
+                </td>
+                <td class="order-container">
+                    <table>
+                        <tr>
+                            <select required>
+                                <option>provider A</option>
+                                <option>provider B</option>
+                                <option>provider C</option>
+                            </select>
+                            <input type="number" min="0" max="1000" placeholder="0" required/>
+                            <button class="styled_btn">Order</button>                      
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr class="row">
+                <td class="part">part A</td>
+                <td class="stock-quantity">100</td>
+                <td class="ordered-quantity">
+                    <div style="flex-grow: 2">2</div>
+                    <div style="flex-grow: 2">provider C</div>
+                    <button class="styled_btn"> X </button>                        
+                </td>
+                <td class="order-container">
+                    <table>
+                        <tr>
+                            <select required>
+                                <option>provider A</option>
+                                <option>provider B</option>
+                                <option>provider C</option>
+                            </select>
+                            <input type="number" min="0" max="1000" placeholder="0" required/>
+                            <button class="styled_btn">Order</button>                      
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table> 
+
+        <form class="form-container row" style="margin-top:10px;">
+            <select required>
+                <option> CSV </option>
+                <option> JSON </option>
+                <option> PDF </option>
+            </select>
+            <button type="submit" class="styled_btn">Export</button>
+            <label for="file">Import</label>
+            <input type="file" accept=".CSV,.JSON" name="file">
+        </form>
+	</div>
+</body>
+</html>

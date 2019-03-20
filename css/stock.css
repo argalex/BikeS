@@ -79,7 +79,8 @@ h1{
     display:flex;
     flex-direction: row;
     width: 80%;
-    margin: auto auto;  
+    margin: auto auto; 
+     
 }
 
 .form-container select,label,input,button{

@@ -3,7 +3,7 @@
 	margin-top:5px;
 	border: solid;
 	border-width: 1px; 
-	padding: 5px;
+	padding: 5px 0px;
 	border-radius: 5px;
 	display: flex;
 	flex-direction: row;
@@ -12,6 +12,10 @@
 .content-container{
     width: 80%;
     margin: auto auto;
+    border-radius: 10px;
+	box-shadow: 0 0 5px black;
+    border: 3px solid white;
+    padding-bottom: 20px;
 }
 
 .row:nth-child(odd){
@@ -63,7 +67,7 @@ h1{
     text-align: center;
 }
 
-.row p,th {
+.row p,h3 {
     flex: 1;
     font-size: 20px;
     font-weight: bold;
@@ -88,6 +92,7 @@ h1{
     .content-container{
         width: 94%;
         margin: auto auto;
+        margin-bottom: 10px;
     }
 
     .form-container{ 
@@ -101,7 +106,6 @@ h1{
     .row .ordered-quantity{
         flex-direction: column;
     }
-
 
 }
 

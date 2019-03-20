@@ -46,7 +46,7 @@ form h1{
 	text-align: center;
 }
 
-.centerMid{
+.content-container{
 	width: 65%;
 	margin: 0 auto;
 }
@@ -55,6 +55,32 @@ form h1{
 .mediaUpload img{
 	max-height: 200px;
 	max-width: 200px;
+}
+
+@media screen and (max-width: 500px){
+    .content-container{
+        width: 94%;
+        margin: auto auto;
+        margin-bottom: 10px;
+    }
+
+    .formDetailContainer a{
+        display: block;
+        width: 30%;
+        margin: 10px auto;
+    }
+
+    .formDetailContainer button{
+        display: block;
+        border-radius: 5px;
+        width: 50%;
+        height: 30px;
+        margin: 0 auto;
+        margin-bottom : 10px;
+    }
+    
+
+
 }
 
 /* Modal Content */

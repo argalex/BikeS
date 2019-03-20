@@ -26,7 +26,34 @@ form h1{
 	text-align: center;
 }
 
-.card-container{
-	width: 25%;
+.content-container{
+	width: 30%;
 	margin: 0 auto;
+}
+
+@media screen and (max-width: 500px){
+    .content-container{
+        width: 94%;
+        margin: 85px auto;
+    }
+
+}
+
+.styled_btn{
+	border:1px solid #7d99ca; 
+	border-radius: 3px;
+	font-size:12px;
+	text-shadow: 1px 1px 0 rgba(0,0,0,0.3);
+	color: #FFFFFF;
+	background-color: #A5B8DA; 
+	background-image: linear-gradient(to bottom, #A5B8DA, #7089B3);
+	margin: 5px auto;
+	padding: 5px;
+	width: 80%;
+}
+	
+.styled_btn:hover{
+	border:1px solid #5d7fbc;
+	background-color: #819bcb;
+	background-image: linear-gradient(to bottom, #819bcb, #536f9d);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#819bcb, endColorstr=#536f9d);
 }

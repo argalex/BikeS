@@ -8,33 +8,36 @@
     <link rel="stylesheet" href="../css/stock.css">
 </head>
 <body>
-    <div style="width: 80%; margin: auto auto;">
+    <div class="content-container">
         <h1>Add new Part</h1>
         <form class="form-container row" style="margin-top:10px;">
             <label for="newPart">Part name:</label>
-            <input name="newPart" placeholder="part A" type="text"/>
+            <input name="newPart" placeholder="part A" type="text" id="newPart"/>
             <button type="submit" class="styled_btn">Submit</button>
         </form>
         <h1>Add new Provider</h1>
         <form class="form-container row" style="margin-top:10px;">
             <label for="newProvider">Provider name:</label>
-            <input name="newProvider" placeholder="provider A" type="text"/>
+            <input name="newProvider" placeholder="provider A" type="text" id="newProvider"/>
             <button type="submit" class="styled_btn">Submit</button>
         </form>
         <h1>Export data</h1>
         <form class="form-container row" style="margin-top:10px;">
             <select required>
-                <option> CSV </option>
+                <option value=""> CSV </option>
                 <option> JSON </option>
                 <option> PDF </option>
             </select>
             <button type="submit" class="styled_btn">Export</button>
         </form>
         <h1>Import custom data</h1>
-        <form class="form-container row" style="margin-top:10px;">
+        <form class="form-container row" style="margin-top:10px; margin-bottom:10px">
             <input type="file" accept=".CSV,.JSON">
             <button type="submit" class="styled_btn">Import</button>
         </form>
+
+        <a href="navigation.html" style="text-align: center; text-decoration: none; padding: 6px; margin:auto auto;" class="styled_btn">Go Back</a>
+
     </div>
 </body>
 </html>

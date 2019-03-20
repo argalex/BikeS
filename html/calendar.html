@@ -5,21 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Calendar</title>
-    <link rel="stylesheet" href="../css/calendar.css">
+	<link rel="stylesheet" href="../css/calendar.css">
 </head>
 <body>
-	<div style="width: 30%; margin: 0 auto;">
-		<h1>Alegeti o data a programarii</h1>
+	<div class="content-container">
+		<h1>Choose a date for your appointment</h1>
 		<div style="width:100%">
-			<button style="float: left">&lt;&lt; Prev</button>
-			<button style="float: right">Next &gt;&gt;</button>
+			<button style="float: left" class="styled_btn">&lt;&lt; Prev</button>
+			<button style="float: right" class="styled_btn">Next &gt;&gt;</button>
 		</div>
 		<p id="date">18/3/2019</p>
-		<div style="display:flex; flex-direction: column; width: 70%; margin: 0 auto;">
-			<div class="row available">
+		<div style="display:flex; flex-direction: column; width: 70%; margin: 0 auto; margin-bottom: 10px;">
+			<div onclick="location.href='form.html?time=1552903200';" class="row available">
 				<p>09:00</p>
 			</div>
-			<div class="row available">
+			<div onclick="location.href='form.html?time=1552903200';" class="row available">
 				<p>09:30</p>
 			</div>
 			<div class="row invalid">
@@ -76,6 +76,9 @@
 				<!-- <button>Edit</button> -->
 			</div>
 		</div>
+
+		<a href="index.html" style="text-align: center; text-decoration: none; padding: 6px; margin-top: 10px;" class="styled_btn">Go Back</a>
+
 	</div>
 </body>
 </html>

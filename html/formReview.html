@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Form review</title>
-    <link rel="stylesheet" href="../css/formReview.css">
+	<link rel="stylesheet" href="../css/formReview.css">
+	<link rel="stylesheet" href="../css/stock.css">
+
 </head>
 <body>
-		<form class="centerMid">
+		<form class="content-container">
 			<h1>Apointment request form</h1>
 
 			<div class="formDetailContainer">
@@ -49,17 +51,29 @@
 			</div>
 
 			<div class="formDetailContainer">
-				<button onclick="displayModal(event)">Approve</button>
-				<button style="float:right;">Deny</button>
+				<button class="styled_btn" onclick="displayModal(event)">Respond</button>	
+				<a href="navigation.html" style="text-align: center; text-decoration: none; padding: 10px;" class="styled_btn">Go Back</a>
 			</div>
+
+			
 
 		</form>
 <!-- Modal -->
 		<div id="myModal" class="grayBackground">
 			<div class="modal-content">
-				<button onclick="closeModal(event)">Close</button>
+				
 				<form>
+					<div class="formDetailContainer">
+						<label for="description">Description:</label>
+						<textarea name="description" id="description" placeholder="Describe the problem here"> </textarea>
+					</div>
 
+					<div class="formDetailContainer">
+						<input type="submit" value="Approve">
+						<input type="submit" value="Deny">
+					</div>
+
+					<button onclick="closeModal(event)">Close</button>
 				</form>
 			</div>
 		</div>

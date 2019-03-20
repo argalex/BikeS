@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Login</title>
-    <link rel="stylesheet" href="../css/logIn.css">
+	<link rel="stylesheet" href="../css/logIn.css">
 </head>
 <body>
-	<div class="card-container">
+	<div class="content-container">
 		
-		<form>
+		<form style="display: flex; flex-direction: column;">
 			<h1>Log In</h1>
 			<div class="formDetailContainer">
 					<label for="username">Username:</label>
@@ -22,13 +22,12 @@
 					<input type="password" name="password" id="password" placeholder="Password">
 			</div>
 
-			<div class="formDetailContainer">
+			<!-- <div class="formDetailContainer">
 				<input type="submit" value="Log In">
-			</div>
+			</div> -->
+			<a href="navigation.html" style="text-align: center; text-decoration: none;" class="styled_btn">Log In</a>
 
-			<div class="formDetailContainer">
-				<input type="submit" value="Cancel">
-			</div>
+			<a href="index.html" style="text-align: center; text-decoration: none;" class="styled_btn">Cancel</a>
 		</form>
 	</div>
 </body>

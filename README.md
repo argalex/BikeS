@@ -12,4 +12,4 @@ The appointments page will open up a calendar containing the requests.By clickin
 
 The stocks and orders page will contain a table with all the parts that the admin has in stock, or parts that he has placed orders for. From here he can also place orders for parts where the stock has depleted. To do so the admin must go on the row of the desierd part, select a provider for it from a list, enter the quantity and the click on order. The  column orders for that part will then be updated.
 
-The management page will be used to 
+The management page will be used to add new parts and new provider, this in term will update the table from the stocks and orders page. New options will be available for providers and new rows will be created for parts.From this page the admin can also export his inventory to CSV/JSON/PDF but also he can import from the same formats except PDF.
